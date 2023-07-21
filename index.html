@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek(PORTFOLIO)</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d8c6deebc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+
+                </p>
+                <h1><span>ABHISHEK SHANKAR</span></h1>
+                <h1>
+                    
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>I'm Abhishek, a 3rd-year student pursuing a Bachelor of Engineering degree in Information Science
+                        and Engineering at CMR Institute of Technology in Bengaluru. I have a passion for technology and
+                        enjoy exploring its various facets.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Languages And Database
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+
+                        <p class="tab-links active-link" onclick="opentab('software')">Software</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>PYTHON</span><br>
+                            </li>
+                            <li>
+                                <span>JAVA</span><br>
+                            </li>
+                            <li>
+                                <span>C Programming</span><br>
+                            </li>
+                            <li>
+                                <span>C++</span><br>
+                            </li>
+                            <li>
+                                <span>MYSQL</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>CMR INSTITUTE OF TECHNOLOGY BANGALORE</span><br>Bachelor of Engineering
+                                Information Science and Engineering(2024)<br>CGPA: 8.38
+
+                            </li>
+                            <li>
+                                <span>RNS PU college KUNDAPURA ,UDUPI</span><br>Pre Univaersity -Science
+                                (PCMB)<br>2020<br>Percentage: 83.5%
+                            </li>
+                            <li>
+                                <span>Govt High School ALOOR,KUNDAPURA</span><br>SSLC (2018)<br>Percentage: 93.12%
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- this is for work exoerience-->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Crash course on Python</span><br>Coursera
+                                <a href="https://drive.google.com/file/d/115VNW6XW5QV0SBMHFBJ8Q2lLGfyJ8Ry9/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span> Front-end Development</span><br>Udemy
+                                <a href="https://drive.google.com/file/d/1g--aEq8tSfwE19U54ZBdr_xx03klOKAF/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span>Python nano degree course</span><br>Prepinsta Prime
+                                <a href="https://drive.google.com/file/d/1aOK2B34KUacGT0rqH4ppXm61xERQgaVZ/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span>Time Series Analysis real world use-cases in Python</span><br>Udemy
+                                <a href="https://drive.google.com/file/d/1T8tflDJmFpIZ0BUmzdBYZqgQ9zV9Sb83/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span>Java Certification</span><br>Springboard by Infosys
+                                <a href="https://drive.google.com/file/d/1yYDg_WJ2B0-T47hkyGaw8jbcYSzRlxAm/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span>algorithm, Data Collection and starting to code</span><br>Coursera
+                                <a href="https://drive.google.com/file/d/1lzZfMZo9KUfF-3J5ijB_gFYmvvEYf6nL/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <span>Accenture Developer Virtual Experience program</span><br>Forage
+                                <a href="https://drive.google.com/file/d/17-K2PCR-qub9K7ij-CCxbph7HRYhCal7/view?usp=drive_link"><i class="fa fa-file" aria-hidden="true"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- this is for work education-->
+                    <div class="tab-contents" id="software">
+                        <ul>
+                            <li>
+                                <span>ADOBE PHOTOSHOP</span>
+
+                            </li>
+                            <li>
+                                <span>CANVA</span>
+                            </li>
+                            <li>
+                                <span>POWERPOINT</span>
+                            </li>
+                            <li>
+                                <span>VS CODE</span>
+                            </li>
+                            <li>
+                                <span>ANDROID STUDIO</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                SKILLS
+            </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FRONT-END DEVELOPMENT</h2>
+                    <p>HTML ,CSS , JAVASCRIPT AND REACT</p>
+                    <a href="https://www.w3schools.com/howto/howto_blog_become_frontenddev.asp">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>BACK-END DEVELOPMENT</h2>
+                    <p>DJANGO ,PHP AND MYSQL </p>
+                    <a href="https://www.w3schools.com/bootcamp/bootcamp_backend.php">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>ANDROID APPLICATION DEVELOPMENT</h2>
+                    <p>JAVA AND XML</p>
+                    <a href="https://www.w3schools.blog/android-tutorial">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>CLOUD COMPUTING</h2>
+                    <p>AWS</p>
+                    <a href="https://www.w3schools.com/aws/aws_cloudessentials_cloudcomputing.php">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------PORTFOLIO--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                MY PROJECTS
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Income and Expenses Tracker for Small Business</h3>
+                        <p>The Income and Expenses Tracker is a web-based application designed to assist small
+                            businesses in
+                            effectively managing their financial transactions.</p>
+                        <a href="https://github.com/abhisheksd27/incomeandexpensetracker"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Event Management Using Django</h3>
+                        <p>It aims to streamline the process of managing events by providing features such as event
+                            registration etc</p>
+                        <a href="https://github.com/abhisheksd27/eventmanagmentdjangoprj"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Pollstar - Question and Answer Platform</h3>
+                        <p>Pollstar is a simple question and answer platform that allows users to post questions and
+                            receive answers
+                            from the community. </p>
+                        <a href="https://github.com/abhisheksd27/Pollstar-FSD-project"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <!--<div class="work">
+                    <img src="images/work5.png">
+                    <div class="layer">
+                        <h3>Student Management System</h3>
+                        <p>The Student Management System is a web-based application that leverages a MySQL database to
+                            efficiently manage student-related information in educational institutions. The system enables
+                            administrators, teachers, and staff to add students, record attendance, manage course details, and
+                            organize subjects. By utilizing a robust database system, the application ensures reliable data storage,
+                            retrieval, and manipulation.</p>
+                        <a href="https://github.com/abhisheksd27/Student-management-system"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4.png">
+                    <div class="layer">
+                        <h3>Quiz App</h3>
+                        <p>The Quiz App is an Android application developed using Java and XML in Android Studio. The app
+                            allows administrators to post quiz questions, and users can register and answer the quiz. The app aims
+                            to provide an interactive and engaging platform for users to test their knowledge while allowing
+                            administrators to create and manage quiz content. </p>
+                        <a href="https://github.com/abhisheksd27/Quizz-app"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>--->
+                <a href="https://github.com/abhisheksd27" class="btn"> See More</a>
+
+            </div>
+        </div>
+
+        <!----------------Cintact----------------------------------->
+        <div id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> abhisheksdevadiga271@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            7338006503
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/abhishek_s_devadiga/?igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/abhishek-4685991b0/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a
+                                href="https://twitter.com/i/flow/login?redirect_after_login=%2FAbhishekSDevad5%3Ft%3D3vig_LQLiAmn3OqiLxaaxw%26s%3D09"><i
+                                    class="fa-brands fa-twitter-square"></i></a>
+
+                        </div>
+                        <a href="images/my-resume-3.pdf" download class="btn btn2">Download Resume</a>
+
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-heart"></i> THANK YOU</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxg_T4DE7Dbkhpkb2flyW7fddUOnUHnmO0yPANiwZPRp3EhUCPUWf-tjcHgjQa-OGhv2g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML="Message Sent Successfully"
+                        setTimeout(function(){
+                            msg.innerHTML=""
+                        },1000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
