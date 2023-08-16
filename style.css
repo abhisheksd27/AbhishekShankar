@@ -118,7 +118,7 @@ nav ul li a:hover::after{
 .tab-links::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: 5px;
     background: #11aae1;
     position: absolute;
     left: 0;
