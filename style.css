@@ -127,7 +127,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links.active-link::after{
-    width: 50%;
+    width: 100%;
 }
 .tab-contents ul li{
     list-style: none;
